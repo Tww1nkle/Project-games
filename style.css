@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1355px;
+    margin: auto;
+    display: block;
+}
+
+header nav{     
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    padding-left: 481px;
+    margin-bottom: 31px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+
+header button{
+    max-width: 294px;
+    max-height: 55px;
+    margin-bottom: 31px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: 94E501;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    background: #94E501;
+    border-radius: 10px;
+}
+
+.one-game .info-nav{
+    margin-bottom: 35px;
+}
+
+.one-game .info-nav p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.one-game .info-nav a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.one-game .text-inform p{
+    display: inline-block;
+}
+
+.one-game .main-iform h1{
+    color: #94E501;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+}
+
+.one-game .main-iform{
+    display: flex;
+}
+
+.one-game .text-inform{
+    margin-left: 27px;
+}
+
+.one-game .text-inform p{
+    margin-bottom: 17px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.one-game .text-inform h1, p{
+    margin-right: 27px;
+}
+
+.one-game .text-inform button{
+    background: #94E501;
+    border-radius: 10px;
+    width: 345px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    font-variant: small-caps;
+    color: #000000;
+}
+
+.one-game .info{
+    margin-top: 60px;
+}
+
+.one-game .line{
+    display: inline-block;
+    width: 0px;
+    height: 81px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.one-game .weight{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.one-game .images-for-game img{
+    margin-right: 10px;
+}
+
+.one-game .images-for-game h1{
+    margin-top: 65px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2F2F2F;
+}
+
+.one-game .system-requirements h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2F2F2F;
+}
+
+.one-game .system-requirements p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
