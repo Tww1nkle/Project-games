@@ -52,3 +52,18 @@ nav a{
     margin-top: 30px;
     font-size: 30px;
 }
+
+.world{
+    font-size: 15px;
+}
+
+.title{
+    color: black;
+    font-size: 15px;
+}
+
+.view{
+    color:  rgb(70, 218, 25);
+    margin-left: 280px;
+    margin-top: -20px;
+}
