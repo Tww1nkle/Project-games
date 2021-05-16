@@ -40,3 +40,37 @@ h3{
 .flex>div{
     background-color: #94E501;
 }
+
+@media (max-width: 1146px){
+    .flex{
+      max-width: 97%;  
+    }
+
+    .flex>div{
+        margin-left: 30px;
+    }
+
+    .genres{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flex>div{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width:500px){
+    .flex>div{
+        margin-left: 90px
+    }
+    .genres{
+        margin-left: 150px;
+    }
+}
+
