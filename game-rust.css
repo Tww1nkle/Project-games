@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1355px;
+    margin: auto;
+    display: block;
+}
+
+.one-video, .two-video{
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+  }
+.one-video iframe, .two-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+  }
+
+#game-rust header nav{     
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    padding-left: 481px;
+    margin-bottom: 31px;
+}
+
+#game-rust header a img{
+    position: absolute;
+}
+
+#game-rust header a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+
+#game-rust header button{
+    max-width: 294px;
+    max-height: 55px;
+    margin-bottom: 31px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: 94E501;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    background: #94E501;
+    border-radius: 10px;
+}
+
+#game-rust .one-game .info-nav{
+    margin-bottom: 35px;
+}
+
+#game-rust .one-game .info-nav p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#game-rust .one-game .info-nav a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+#game-rust .one-game .text-inform p{
+    display: inline-block;
+}
+
+#game-rust .one-game .main-iform h1{
+    color: #94E501;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+}
+
+#game-rust .one-game .main-iform{
+    display: flex;
+}
+
+#game-rust .one-game .text-inform{
+    margin-left: 27px;
+}
+
+#game-rust .one-game .text-inform p{
+    margin-bottom: 17px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+#game-rust .one-game .text-inform h1, p{
+    margin-right: 27px;
+}
+
+#game-rust .one-game .text-inform button{
+    background: #94E501;
+    border-radius: 10px;
+    width: 345px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    font-variant: small-caps;
+    color: #000000;
+}
+
+#game-rust .one-game .info{
+    margin-top: 60px;
+}
+
+#game-rust .one-game .line{
+    display: inline-block;
+    width: 0px;
+    height: 81px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+#game-rust .one-game .weight{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#game-rust .one-game .images-for-game img{
+    margin-right: 10px;
+}
+
+#game-rust .one-game .images-for-game h1{
+    margin-top: 65px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2F2F2F;
+}
+
+#game-rust .one-game .system-requirements h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2F2F2F;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#game-rust .one-game .system-requirements p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+#game-rust .one-game .Gameplay-and-trailers h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #2F2F2F;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+#game-rust .one-game .video-for-game .one-video{
+    display: inline-block;
+    margin-bottom: 160px;
+    margin-right: 20px;
+}
+
+#game-rust .one-game .video-for-game .two-video{
+    display: inline-block;
+    margin-bottom: 160px;
+}
+
+#game-rust footer{
+    background-color: #484848;
+}
+
+#game-rust .navig-footer nav a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#game-rust .navig-footer .help-footer{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #94E501;
+    background-color: #484848;
+    border: none;
+}
+
+#game-rust .logo-website img{
+    display: inline-block;
+    position: absolute;
+    padding-top: 97px;
+}
+
+#game-rust .navig-footer{
+    display: inline-block;
+    padding-top: 121px;
+    padding-bottom: 191px;
+}
+
+#game-rust .footer-weapons{
+    display: inline-block;
+    margin-left: 345px;
+    margin-top: 121px;
+    margin-bottom: 191px;
+}
+
+#game-rust .help-footer{
+    display: inline-block;
+    margin-left: 393px;
+}
+
+#game-rust footer nav a{
+    margin-left: 35px;
+}
+
+@media (max-width: 1355px){
+    .container{
+        width: 90%;
+    }
+
+    #game-rust header{
+        margin-top: 30px;
+    }
+
+    #game-rust header button{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+    #game-rust .one-game .main-iform{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 550px){
+    #game-rust .one-game .system-requirements p, #game-rust .one-game .text-inform p{
+        font-size: 25px;
+    }
+
+    #game-rust .one-game .Gameplay-and-trailers h1, #game-rust .one-game .system-requirements h1, #game-rust .one-game .images-for-game h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    #game-rust .one-game .text-inform button{
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    #game-rust header nav{
+        padding-left: 6px;
+        display: block;
+    }
+}
