@@ -2,22 +2,62 @@
     margin: 0;
     padding: 0;
 }
-.tell{
-    width: 90px;
-    height: 90px;
-    padding-left: 40px;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a{
+.container{
+    max-width: 1355px;
+    margin: auto;
+    display: block;
+}
+
+header nav{     
+    display: inline-block;
     text-decoration: none;
     color: #000000;
-    padding-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    padding-left: 481px;
+    margin-bottom: 31px;
 }
-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.logo{
+    height: 80px;
+    width: 80px;
 }
-h1{
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+
+header button{
+    max-width: 294px;
+    max-height: 55px;
+    margin-bottom: 31px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: 94E501;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps;
+    background: #94E501;
+    border-radius: 10px;
+}
+#katalog h1{
     padding-right: 30px;
     color: #000000;
 }
@@ -26,40 +66,116 @@ h1{
     size: 100%;
 }
 .container{
-    max-width: 1355px;
+    max-width: 1600px;
     margin: auto;
 }
-
 .img{
     background-image: url(images/backgr2.jpg);
     background-size: cover;
     margin-top: 10px;
     padding-top: 300px;
 }
-
-.images{
-    width: 70%;
-    height: 350px;
-}
-.star{
+#katalog .star{
     height: 20px;
     width: 20px;
 }
-.qwe{
+#katalog .qwe{
     padding-right: 40px;
     font-size: 10px;
 }
-.katalog{
-    display: flex;
-    justify-content: flex-start;
+#katalog .title{
    font-size: 30px;
-   max-width: 90px;
+   padding-top: 150px;
+   max-width: 500px;
 }
-.tools{
+#katalog .tools{
     display: flex;
     justify-content: space-between;
-    justify-content: flex-end;
+    position: absolute;
+    left: 40%;
+    width: 1010px;
+    top: 56px;
 }
+.kat{
+font-size: 40px;
+margin-top: 100px;
+text-decoration: none;
+max-width: 180px;
+max-height: 55px;
+margin-bottom: 31px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+color: #94E501;
+text-decoration: none;
+color: #000000;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+font-variant: small-caps;
+background: #94E501;
+border-radius: 10px;
+}
+.imgs{
+    background-image: url(images/backgr.png);
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 400px;
+}
+.sait{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 46px;
+}
+footer{
+    background-color: #484848;
+}
+.last-block a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.pict{
+    width: 90px;
+    height: 90px;
+    padding-left: 40px;
+}
+.mark img{
+    height: 29px;
+    margin-right: 8px;
+}
+.mark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex{
+    display: inline-block
+}
+#katalog{
+    position: relative;
+    overflow: hidden;
+    min-height: 663px;
 
-
-
+}
+.last-block{
+    margin-top: 60px;
+}
+.Max-payne{
+    background-image: url(images/Max\ payne\ 3.png);
+    width: 30%;
+    height: 40%;
+}
+.thief{
+    background-image: url(images/civilization.png);
+}

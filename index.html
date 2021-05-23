@@ -1,55 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-            <img class="tell" src="images/logo.png" alt="logo">
+            <a href="#"><img class="logo" src="images/logo.png" alt="logo-web"></a>
             <nav>
-            <a href="#">Отзывы</a>
-            <a href="#">Обзоры</a>
-            <a href="#">О нас</a>
-            <a href="#">Категории</a>
-            <a href="#">Вход</a>
+                <a href="#">О нас</a>
+                <a href="#">Обзоры</a>
+                <a href="#">Категории</a>
+                <a href="#">Форум</a>
             </nav>
+            <button>Зарегестрироваться</button>
         </div>
     </header>
     <main>
         <div class="img">
-        </div>    
-    
+        </div>
+        <div class="flex-wrapper" id="katalog">
             <div class="container">
-                <nav class="katalog">
+                <div class="title">
                     <h1>Популярные игры</h1>
-                    <p>Перейти в каталог</p>
-                </nav>
-            <div class="tools">
-                <div>
-                    <img  src="images\garry.png" style="width: 300px;" alt="game">
-                    <p class="qwe">10.gb</p>
-                    <img class="star" src="images/star.png" alt="star">
-                    <p>8.0</p>
-                </div>
-                <div>
-                    <img  src="images\rust.png" style="width: 300px;" alt="game">
-                    <p class="qwe">10.gb</p>
-                    <img class="star" src="images/star.png" alt="star">
-                    <p>8.0</p>
-                </div>
-                <div>
-                    <img  src="images\forza.jpg" style="width: 300px;" alt="game">
-                    <p class="qwe">10.gb</p>
-                    <img class="star" src="images/star.png" alt="star">
-                    <p>8.0</p>
-        </main>
+                    <a class="kat" href="#">Перейти в каталог</a>
                 </div>
             </div>
-        <footer>
+            <div class="tools">
+                <div>
+                    <a href="#"><img src="images\garry.png" style="width: 300px; height: 435px;" alt="game"></a><
+                    <p class="qwe">10.gb</p>
+                    <div class="mark">
+                        <a href="#"><img class="star" src="images/star.png" alt="star"></a>
+                        <p>8.0</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="#"><img src="images\rust.png" style="width: 300px; height: 435px;" alt="game"></a>
+                    <p class="qwe">10.gb</p>
+                    <div class="mark">
+                        <img class="star" src="images/star.png" alt="star">
+                        <p>8.0</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <a href="#"><img src="images\forza.jpg" style="width: 300px; height: 435px;" alt="game"></a>
+                    <p class="qwe">10.gb</p>
+                    <div class="mark">
+                        <img class="star" src="images/star.png" alt="star">
+                        <p>8.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="imgs">
+            <p class="sait">На нашем сайте можно смотреть обзоры
+                на популярные игры, если не получается
+                пройти какую-то игру, можно посмотреть
+                прохождение данной игры, можно безопасно
+                скачивать торренты игр не боясь попадания
+                на ПК вирусов. Также на нашем сайте
+                можно выбирать различные игры и
+                скачивать их бесплатно.</p>
+        </div>
+    </aside>
+    <section> 
+        <h1></h1>
+        <div class="Max-payne"></div>
+        <div class="mortal-combat"></div>
+        <div class="civilization"></div>
+        <div class="thief"></div>
+    </section>
+    <footer class="last-block">
+        <nav>
+            <img class="pict" src="images/logo.png" alt="">
+            <a href="#">О наc</a>
+            <a href="#">Категории</a>
+            <a href="#">Обзоры</a>
+            <a href="#">Форум</a>
+            <a class="last" href="#">Помощь</a>
+        </nav>
     </footer>
 </body>
+
 </html>
