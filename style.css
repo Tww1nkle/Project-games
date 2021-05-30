@@ -58,57 +58,80 @@ header nav a{
 }
 
 
-
-.text a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    margin-left: 10px;
+#path h2{
+    font: 400 24px/29px 'Montserrat', sans-serif;
+    margin-top: 46px;
 }
 
-.video{
-    color: rgb(70, 218, 25);
-    margin-left: 10px;
-    margin-top: 20px;
-    font-size: 30px;
-}  
-
-.read{
-    color: rgb(70, 218, 25);
-    margin-left: 10px;
+.heading-style{
+    font: 500 48px/58px 'Montserrat', sans-serif;
+    color: #94E501;
     margin-top: 30px;
-    font-size: 30px;
+    margin-bottom: 25px;
 }
 
-.world{
-    font-size: 15px;
-    margin-right: 15px;
+#video .games figure {
+    margin-bottom: 30px;
 }
 
-.games{
+#video .games{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.game{
-    padding-top: 30px;
+#video .games figure img{
+    width: 435px;
+}
+
+#video .games figure div {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.title{
+#video .games figure a {
+    font: 400 22px/27px 'Montserrat', sans-serif;
+    color: #94E501;
+    text-decoration: underline;
+
+}
+
+#video .games figure .title{
     color: black;
-    font-size: 15px;
+    font: 400 24px/29px 'Montserrat', sans-serif;
+    margin-top: 15px;
 }
 
-.view{
-    color:  rgb(70, 218, 25);
-    margin-left: 280px;
-    margin-top: -20px;
-    font-size: 15px;
+#text .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+#text .text .item {
+    position: relative;
+    margin: 15px 0px;
+}
+
+#text .text .item a{
+    font: 400 20px/25px 'Montserrat', sans-serif;
+    background: #94E501; 
+    color: black;
+    padding: 12px 82px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+}
+
+/* footer start */
 footer {
+    margin-top: 160px;
     padding-top: 121px;
     padding-bottom: 150px;
     background: #484848;
@@ -136,26 +159,7 @@ footer .help{
     color: #94E501;
     font: 400 24px/29px 'Montserrat', sans-serif;
 }
-
-.photo{
-    margin-top: -15px;
-    margin-left: -123px;
-}
-
-.teg{
-    margin-left: 123px;
-}
-
-.pc{
-    border: #67df05 solid 1px;
-    padding: 2px 20px;
-    font-size: 15px;
-    margin-left: 130px;
-    margin-right: 130px;
-    color: rgb(56, 105, 6);
-    background-color: rgb(127, 250, 4);
-    border-radius: 3px;
-}
+/* footer end */
 
 /* padding: top right bottom left;
     padding: top&bottom right&left; */
