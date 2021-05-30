@@ -3,8 +3,17 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container{
-    max-width: 1500px;
+    max-width: 1355px;
+    margin: auto;
+}
+
+ul, li{
+    list-style-type: none;
 }
 
 .flex-wrapper{
@@ -16,21 +25,39 @@
     margin-top: 20px;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
+header .flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.entrance{
-    color: rgb(25, 238, 36);
-    border: #00950c solid 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(23, 202, 32);
-    border-radius: 5px;
+header .entrance{
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    background-color: #94E501;
+    border-radius: 10px;
+    font: 400 22px/26px 'Roboto', sans-serif; 
 }
+
+.logo{
+    width: 99px;
+    height: 90px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav a{
+    margin-left: 30px;
+    color: black;
+    text-transform: uppercase;
+    font: 400 24px/28px 'Roboto', sans-serif;
+    /* font: weight size/height family...; */
+}
+
+
 
 .text a{
     text-decoration: none;
@@ -44,7 +71,7 @@ nav a{
     margin-left: 10px;
     margin-top: 20px;
     font-size: 30px;
-}
+}  
 
 .read{
     color: rgb(70, 218, 25);
@@ -55,6 +82,18 @@ nav a{
 
 .world{
     font-size: 15px;
+    margin-right: 15px;
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+}
+
+.game{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .title{
@@ -66,4 +105,57 @@ nav a{
     color:  rgb(70, 218, 25);
     margin-left: 280px;
     margin-top: -20px;
+    font-size: 15px;
 }
+
+footer {
+    padding-top: 121px;
+    padding-bottom: 150px;
+    background: #484848;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+footer .container div a{
+    font: 400 22px/27px 'Montserrat', sans-serif;
+    margin-left: 35px;
+    color: white;
+}
+
+footer .container div:first-child{
+    margin-left: 0px;
+}
+
+footer .help{
+    text-decoration: underline;
+    color: #94E501;
+    font: 400 24px/29px 'Montserrat', sans-serif;
+}
+
+.photo{
+    margin-top: -15px;
+    margin-left: -123px;
+}
+
+.teg{
+    margin-left: 123px;
+}
+
+.pc{
+    border: #67df05 solid 1px;
+    padding: 2px 20px;
+    font-size: 15px;
+    margin-left: 130px;
+    margin-right: 130px;
+    color: rgb(56, 105, 6);
+    background-color: rgb(127, 250, 4);
+    border-radius: 3px;
+}
+
+/* padding: top right bottom left;
+    padding: top&bottom right&left; */
